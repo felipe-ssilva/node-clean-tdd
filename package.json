@@ -12,9 +12,25 @@
     "test": "jest"
   },
   "devDependencies": {
+    "eslint": "^7.0.0",
+    "express": "^4.17.1",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "lint-staged": "^10.2.2",
+    "mongoose": "^5.9.14",
     "standard": "^14.3.4"
+  },
+  "eslint": {
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "semi": 0
+    }
   }
 }
