@@ -9,7 +9,13 @@
   "scripts": {
     "dev": "",
     "prod": "",
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "devDependencies": {
     "eslint": "^7.0.0",
